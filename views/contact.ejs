@@ -15,7 +15,20 @@
     <%- include partials/main_nav.ejs %>
     <body>
         <form class="needs-validation" novalidate>
-            <div class="form-row" style="display: flex;justify-content: space-evenly;">
+            <div class="form-row" style="display: flex;justify-content: space-between; float: left; width: 45%; height: 100px;">
+              <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+                <div class="card-header">My Contact Info</div>
+                <div class="card-body">
+                  <h5 class="card-title">Naveen</h5>
+                  <p class="card-text">Dear Page Visitor, Feel free to contat me if you have any doubts.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" style="color: black;">7871279088</li>
+                  <li class="list-group-item" style="color: black;">nkanmani@my.centennialcollege.ca</li>
+                </ul>
+              </div>
+            </div>
+            <div class="form-row" style="display: flex; margin-left: 10%; height: 100px; ">
               <div class="col-md-4 mb-3">
                 <label for="validationCustom01">First name</label>
                 <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="" required>
@@ -42,21 +55,17 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address" required>
-                    <div class="invalid-feedback">
-                        Please provide a Email Address.
-                      </div>
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address" required>
+                <div class="invalid-feedback">
+                    Please provide a Email Address.
                   </div>
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-             <div class="form-group">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                 <label class="form-check-label" for="invalidCheck">
@@ -65,9 +74,9 @@
                 <div class="invalid-feedback">
                   You must agree before submitting.
                 </div>
+                <button class="btn btn-primary" type="submit" a href="/home" class="nav-link px-2" style="color: black; height: 30px; font-weight:bold; justify-content: space-between;">Submit form</button>
               </div>
             </div>
-         <button class="btn btn-primary" type="submit" a href="/home" class="nav-link px-2" style="color: black; height: 30px; font-weight:bold">Submit form</button>
           </form>
           
           <script>
