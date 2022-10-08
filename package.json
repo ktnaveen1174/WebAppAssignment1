@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week3",
+  "name": "webassignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -21,7 +21,7 @@
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
   },
-  "description": "demo app for COMP229 Week 3",
+  "description": "WebAppAssignment1",
   "main": "index.js",
   "devDependencies": {},
   "repository": {
@@ -31,9 +31,9 @@
   "author": "Naveen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
+    "url": "https://github.com/ktnaveen1174/WebAppAssignment1/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme",
+  "homepage": "https://github.com/ktnaveen1174/WebAppAssignment1#readme",
   "keywords": [
     "Naveen"
   ]
