@@ -23,7 +23,7 @@ router.get('/home', function(req, res, next) {
   res.render('home', { user, title: 'Home'});
 });
 
-/* GET About Us page. */
+/* GET About Me page. */
 router.get('/about', function(req, res, next) {
   res.render('aboutme', { title: 'About'});
 });
@@ -38,7 +38,7 @@ router.get('/services', function(req, res, next) {
   res.render('service', { title: 'Services'});
 });
 
-/* GET Contact Us page. */
+/* GET Contact Me page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact'});
 });

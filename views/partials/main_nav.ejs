@@ -9,10 +9,10 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+ 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-
+ <!-- Home -->
         <% if (title == "Home"){ %>
         <li class="nav-item active">
         <% } else  { %>
@@ -20,7 +20,7 @@
         <% } %>
           <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
         </li>
-
+<!-- About Me -->
         <% if (title == "About Me") { %>
         <li class="nav-item active">
         <% } else  { %>
@@ -28,7 +28,7 @@
         <% } %>
           <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About Me</a>
         </li>
-
+<!-- Products -->
         <% if (title == "Products") { %>
         <li class="nav-item active">
         <% } else  { %>
@@ -36,7 +36,7 @@
         <% } %>
           <a class="nav-link" href="/products"><i class="fab fa-elementor"></i> Products </a>
         </li>
-
+<!-- Services -->
         <% if (title == "Services") { %>
         <li class="nav-item active">
         <% } else  { %>
@@ -44,7 +44,7 @@
         <% } %>
           <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services </a>
         </li>
-
+<!-- Contact Me -->
         <% if (title == "Contact Me") { %>
         <li class="nav-item active">
         <% } else  { %>

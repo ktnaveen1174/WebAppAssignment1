@@ -6,6 +6,7 @@
 <%- include partials/header.ejs %>
 <%- include partials/main_nav.ejs %>
 <div class="container">
+  <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -32,6 +33,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+    <!-- Main Content -->
     <h1>Hi, I am <%= user.firstName  %> <%= user.lastName %></h1>
     <h2>Welcome to my Blog</h2>
     <h3>Mission Statement:</h3>
